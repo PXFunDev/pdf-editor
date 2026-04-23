@@ -1,3 +1,6 @@
+# coding: utf-8
+# Python 3.12.10
+
 """PDF Editor – Flet GUI entry point."""
 
 import sys
