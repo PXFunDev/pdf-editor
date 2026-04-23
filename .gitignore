@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Project runtime directories – keep only the .gitkeep placeholder
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
+
 # C extensions
 *.so
 
