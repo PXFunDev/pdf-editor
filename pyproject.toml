@@ -1,0 +1,20 @@
+[project]
+name = "pdf-editor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncio>=4.0.0",
+    "flet>=0.24.0",
+    "pip>=26.0.1",
+    "pip-system-certs>=5.3",
+    "pymupdf>=1.23.0",
+    "pypdf>=3.0.0",
+]
+
+# SSL証明書の検証対策は pyproject.toml に記載しないでください。
+# Windows でシステム証明書を使う場合はターミナルで設定します。
+# 例（PowerShell、設定後は新しいシェルを開く必要があります）:
+#   setx UV_SYSTEM_CERTS true
+# あるいはパッケージのインストール時に --cert/--trusted-host を検討してください。
